@@ -1,5 +1,4 @@
 interface bicycle{
-    
     int b= 40;
     void speedup(int increment);
     void applybrake(int decrement);
