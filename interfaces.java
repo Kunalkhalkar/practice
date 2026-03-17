@@ -12,6 +12,7 @@ interface carryload{
 
 class atlas implements bicycle, carryload{   //you can implement class with multiple interfaces by separating 
 
+    
     public void iron(){
         System.out.println("load is may be high");
     }
