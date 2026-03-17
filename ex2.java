@@ -7,7 +7,6 @@ public class ex2 {
         int a=sc.nextInt();
         System.out.println("enter your full name");
         String str = sc.nextLine();
-    
         System.out.println("hello "+str+" your value is "+a);
 
     }
