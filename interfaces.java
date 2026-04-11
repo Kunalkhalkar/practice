@@ -2,7 +2,6 @@ interface bicycle{
     int b= 40;
     void speedup(int increment);
     void applybrake(int decrement);
-
 }
 
 interface carryload{
@@ -11,7 +10,6 @@ interface carryload{
 }
 
 class atlas implements bicycle, carryload{   //you can implement class with multiple interfaces by separating 
-
     
     public void iron(){
         System.out.println("load is may be high");
