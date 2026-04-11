@@ -4,15 +4,12 @@ class tractor{
     public  String sound(){
        return bass;
     }
-
     public tractor() {
         System.out.println("without parameter constructor sound");
     }
-
     public tractor(int b){
         System.out.println("this is tractor with param constructor : "+b);
     }
-
 }
  
 class jcb{
