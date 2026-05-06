@@ -17,14 +17,15 @@ class atlas implements bicycle, carryload{   //you can implement class with mult
     public void cotton(){
         System.out.println("load is less");
     }
+    
     public void speedup(int increment){
         System.out.println("your applying the speed up");
     }
+    
     public void applybrake(int decrement){
         System.out.println("you are  now applying brake");
     }
 }
-
 public class interfaces {
     public static void main(String[] args) {
         atlas b1= new atlas();
