@@ -9,5 +9,6 @@ public class ex2 {
         System.out.println("enter your full name");
         String str = sc.nextLine();
         System.out.println("hello "+str+" your value is "+a);
+        
     }
 }
