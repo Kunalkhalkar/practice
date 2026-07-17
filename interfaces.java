@@ -21,6 +21,8 @@ class atlas implements bicycle, carryload{   //you can implement class with mult
         System.out.println("you are  now applying brake");
     }
 }
+//public class interfaces
+
 public class interfaces {
     public static void main(String[] args) {
         atlas b1= new atlas();
