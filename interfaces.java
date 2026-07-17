@@ -3,25 +3,20 @@ interface bicycle{
     void speedup(int increment);
     void applybrake(int decrement);
 }
-
 interface carryload{
     void iron();
     void cotton();
 }
-
-class atlas implements bicycle, carryload{   //you can implement class with multiple interfaces by separating 
-    
+class atlas implements bicycle, carryload{   //you can implement class with multiple interfaces by separating    
     public void iron(){
         System.out.println("load is may be high");
     }
     public void cotton(){
         System.out.println("load is less");
     }
-    
     public void speedup(int increment){
         System.out.println("your applying the speed up");
     }
-    
     public void applybrake(int decrement){
         System.out.println("you are  now applying brake");
     }
