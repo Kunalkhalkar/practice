@@ -16,7 +16,6 @@ class jcb{
                 System.out.println("this sound is with parameter constructor : "+r);
        } 
 }
-
 class hevy_machine extends tractor{
  public hevy_machine(int r ,int c){
     super(r);
