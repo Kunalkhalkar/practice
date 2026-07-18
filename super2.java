@@ -1,5 +1,4 @@
 class tractor{
-
     String bass="high volume";
     public  String sound(){
        return bass;
