@@ -10,6 +10,7 @@ class tractor{
         System.out.println("this is tractor with param constructor : "+b);
     }
 }
+
 class jcb{
        public jcb(int r){
                 System.out.println("this sound is with parameter constructor : "+r);
