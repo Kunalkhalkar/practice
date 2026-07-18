@@ -21,6 +21,7 @@ class hevy_machine extends tractor{
     super(r);
     System.out.println("hi i am the heavy machine : "+ c);
  }
+    
  }
 public class super2 {
     public static void main(String[] args) {
