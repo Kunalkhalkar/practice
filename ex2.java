@@ -6,6 +6,7 @@ public class ex2 {
         Scanner sc = new Scanner(System.in);
         System.out.println("enter value of a");
         int a = sc.nextInt();
+        
         System.out.println("enter your full name");
         String str = sc.nextLine();
         
